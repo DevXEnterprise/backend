@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "tsc && node dist/index.js",
-    "dev": "nodemon src/index.ts"
+    "dev": "cross-env NODE_ENV=development nodemon src/index.ts"
   },
   "author": "Kamal Kashyap",
   "license": "MIT",
